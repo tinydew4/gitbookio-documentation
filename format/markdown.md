@@ -105,7 +105,7 @@ The default footnote-style links that Markdown uses do not display on the page. 
 
 ```markdown
 Text prior to footnote reference.[^2]
-[^2] Comment to include in footnote.
+[^2]: Comment to include in footnote.
 ```
 
 ## Images
