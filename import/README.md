@@ -24,7 +24,7 @@ The import feature uses the [gitbook-convert](https://github.com/GitbookIO/gitbo
 
 [gitbook-convert](https://github.com/GitbookIO/gitbook-convert) is smart enough to divide a big document into chapters and sub-chapters, based on the document's structure. Thus, each first-level header of the original document will be converted to a chapter. If a chapter contains second-level headers, a folder instead of a new file is created for this chapter. This folder will contain each sub-chapters.
 
-In a chapter's folder, a `README.md` file containing the chapter preface is created. The whole content before the first second-level header is considered to be a chapter preface. The same rule apply for the whole content before the first first-level header which is used as the book's preface.
+In a chapter's folder, a `README.md` file containing the chapter preface is created. The whole content before the first second-level header is considered to be a chapter preface. The same rule applies for the whole content before the first first-level header which is used as the book's preface.
 
 For `.docx` documents, [gitbook-convert](https://github.com/GitbookIO/gitbook-convert) will also export all included images into the `assets/` folder.
 
