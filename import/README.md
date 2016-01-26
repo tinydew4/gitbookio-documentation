@@ -2,7 +2,7 @@
 
 Importing an existing document to GitBook is now easy.
 
-You already have access to this feature either on the Import tab when creating a new book or on the welcome page of an empty book.
+You can access this feature either on the Import tab when creating a new book or on the welcome page of an empty book.
 
 ### Accepted formats
 
