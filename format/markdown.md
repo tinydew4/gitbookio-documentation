@@ -150,7 +150,7 @@ But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 
 ## Tables
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them.
 
 ```markdown
 Colons can be used to align columns.
