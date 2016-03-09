@@ -1,20 +1,12 @@
-# GitBook Documentation
+# GitBook.com Documentation
 
-This book contains the entire documentation for **GitBook** (gitbook.com and format).
-
-### Open Source Format
-
-The toolchain (GitBook) is a tool for building beautiful books using Git and Markdown. It can generate your book in many formats: **PDF**, **ePub**, **mobi** or as a **website**.
-
-It is open source, the source code of the tool is available on [GitHub](https://github.com/GitbookIO/gitbook).
-
-Issues and question related to the format and the toolchain should be posted on [GitHub](https://github.com/GitbookIO/gitbook/issues)
-
-### GitBook.com
-
-GitBook.com is the online platform ([www.gitbook.com](https://www.gitbook.com)) to create and host books built using the GitBook format.
+GitBook.com is the online platform ([www.gitbook.com](https://www.gitbook.com)) to create and host books built using the GitBook format. This book contains the entire documentation for the GitBook.com **platform**. 
 
 ### Other documentations
+
+{# In addition to that, provide quick links to the different documentations in the header #}
+
+If you are looking for the toolchain documentation (CLI and format), visit [toolchain.gitbook.com](https://toolchain.gitbook.com).
 
 Documentation for developers (API & Plugins) is accessible at [developer.gitbook.com](https://developer.gitbook.com).
 
