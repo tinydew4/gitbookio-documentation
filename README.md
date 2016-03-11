@@ -1,6 +1,6 @@
 # GitBook.com Documentation
 
-GitBook.com is the online platform ([www.gitbook.com](https://www.gitbook.com)) to create and host books built using the GitBook format. This book contains the entire documentation for the GitBook.com **platform**. 
+GitBook.com is the online platform ([www.gitbook.com](https://www.gitbook.com)) to create and host books built using the GitBook format. This book contains the entire documentation for the GitBook.com **platform**.
 
 ### Other documentations
 
@@ -10,7 +10,7 @@ If you are looking for the toolchain documentation (CLI and format), visit [tool
 
 Documentation for developers (API & Plugins) is accessible at [developer.gitbook.com](https://developer.gitbook.com).
 
-Setup guide and documentation for the enterprise version is accessible at [help.enterprise.gitbook.com](http://help.enterprise.gitbook.com).
+Setup guide and documentation for the enterprise version is accessible at [help.enterprise.gitbook.com](https://help.enterprise.gitbook.com).
 
 ### Help and Support
 
