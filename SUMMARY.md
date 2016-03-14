@@ -27,4 +27,3 @@
 * [Organizations](account/orgs.md)
 * [Duplicate](accounts/duplicate.md)
 * [Premium Plans](accounts/plans.md)
-
