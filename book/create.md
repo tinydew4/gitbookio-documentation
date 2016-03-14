@@ -1,6 +1,18 @@
 # Creating or importing books
 
-# Importing documents
+When creating books, your are prompted with several alternatives:
+
+- Create from a _Basic_ book template
+- Create from a _Science_ book template, already configured to use `mathjax`
+- Import a book from GitHub, any git repository, or documents.
+
+## Importing from an existing book on GitHub
+
+When creating a new book, the `GitHub` tab let you choose one of your GitHub repository to import.
+If you haven't integrated our account with GitHub, see the [GitHub Integration section](book/github)).
+After creation, your book will show in GitBook, already linked to the GitHub sources, with a webhook configured to build the book on update.
+
+## Importing from documents
 
 Importing an existing document to GitBook is easy. Upload it when creating a book using the `Import` tab.
 
