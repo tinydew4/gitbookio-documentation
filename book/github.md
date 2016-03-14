@@ -11,7 +11,7 @@ To integrate your book with GitHub, you need to authorize GitBook to access your
 - **Access to private repositories**: Same as above, but for private repositories too.
 - **Access to webhook**: Allows GitBook to create webhooks on your book repositories to trigger builds automatically.
 
-## Book hosted on GitHub
+## Hosting you book on GitHub
 
 You can configure GitBook to use a GitHub repository to host a book. This is done automatically if you [imported a book from GitHub](create#importing-from-an-existing-book-on-github).
 Otherwise you need to:
