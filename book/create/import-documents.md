@@ -1,22 +1,8 @@
-# Creating or importing books
-
-When creating books, your are prompted with several alternatives:
-
-- Create from a _Basic_ book template
-- Create from a _Science_ book template, already configured to use `mathjax`
-- Import a book from GitHub, any git repository, or documents.
-
-## Importing from an existing book on GitHub
-
-When creating a new book, the `GitHub` tab let you choose one of your GitHub repository to import.
-If you haven't integrated our account with GitHub, see the [GitHub Integration section](github.md)).
-After creation, your book will show in GitBook, already linked to the GitHub sources, with a webhook configured to build the book on update.
-
-## Importing from documents
+# Importing from documents
 
 Importing an existing document to GitBook is easy. Upload it when creating a book using the `Import` tab.
 
-### Accepted formats
+## Accepted formats
 
 Here are the formats available for importation:
 
@@ -32,7 +18,7 @@ For better results, we recommend using:
 
 For DocBook v4 documents, consider [converting them automatically to version 5](http://doccookbook.sourceforge.net/html/en/dbc.structure.db4-to-db5.html) for improved compatibility.
 
-### Conversion
+## Conversion
 
 The import feature uses the [gitbook-convert](https://github.com/GitbookIO/gitbook-convert) CLI utility. This module converts the original document to markdown files, and generates a suitable `SUMMARY.md`.
 
@@ -70,8 +56,6 @@ For `.docx` documents, [gitbook-convert](https://github.com/GitbookIO/gitbook-co
 
 If you ever need more flexibility, consider using [gitbook-convert](https://github.com/GitbookIO/gitbook-convert) locally, create a repository and import it using Git or GitHub.
 
-### Troubleshooting
+## Troubleshooting
 
 We're always happy to help out with your books or any other questions you might have. You can ask a question or signal an issue on the following form at [github.com/GitbookIO/gitbook-convert](https://github.com/GitbookIO/gitbook-convert/issues).
-
-

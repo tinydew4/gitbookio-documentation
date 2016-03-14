@@ -5,10 +5,13 @@
 
 ### Books
 
-* [Creation & Importing](book/create.md)
+* [Creation & Importing](book/create/README.md)
+  * [Importing from documents](book/create/import-documents.md)
 * [GitHub Integration](book/github.md)
+  * [Permissions](book/github.md#setting-up-permissions)
+  * [Hosting on GitHub](book/github.md#hosting-your-book-on-github)
+  * [Webhooks](book/github.md#webhooks)
 * [Custom Domains](book/domains.md)
-* [Webhooks](book/webhooks.md)
 
 ### Publishing
 
