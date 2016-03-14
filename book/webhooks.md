@@ -6,6 +6,6 @@ If your book is not updated on GitBook, it is probably because of an incorrect w
 
 ## Setting up a webhook
 
-Using webhooks requires to [link your GitHub account](github) with the correct permission for webhooks, and to [link your book to a GitHub repository](github#hosting-you-book-on-github). Then to create a webhook, just click on **Add a deployment webhook** in your book's settings.
+Using webhooks requires to [link your GitHub account](github.md) with the correct permission for webhooks, and to [link your book to a GitHub repository](github.md#hosting-you-book-on-github). Then to create a webhook, just click on **Add a deployment webhook** in your book's settings.
 
 Now any commit on GitHub will trigger builds on GitBook.

@@ -13,7 +13,7 @@ To integrate your book with GitHub, you need to authorize GitBook to access your
 
 ## Hosting you book on GitHub
 
-You can configure GitBook to use a GitHub repository to host a book. This is done automatically if you [imported a book from GitHub](create#importing-from-an-existing-book-on-github).
+You can configure GitBook to use a GitHub repository to host a book. This is done automatically if you [imported a book from GitHub](create.md#importing-from-an-existing-book-on-github).
 Otherwise you need to:
 
 1. Open the GitHub section in your book settings
@@ -21,7 +21,7 @@ Otherwise you need to:
 3. Save your settings
 4. (Optionnal) Click on **Export to GitHub** to transfer your book's content, if any, over GitHub
 
-Now the Editor will make changes directly to GitHub. You might want to setup a [webhook](webhooks) to automatically trigger builds.
+Now the Editor will make changes directly to GitHub. You might want to setup a [webhook](webhooks.md) to automatically trigger builds.
 
 {% hint style="danger" %}
 The GitHub repository will become the main repository. You should no longer use the GitBook repository afterward.

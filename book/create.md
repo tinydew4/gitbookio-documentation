@@ -9,7 +9,7 @@ When creating books, your are prompted with several alternatives:
 ## Importing from an existing book on GitHub
 
 When creating a new book, the `GitHub` tab let you choose one of your GitHub repository to import.
-If you haven't integrated our account with GitHub, see the [GitHub Integration section](book/github)).
+If you haven't integrated our account with GitHub, see the [GitHub Integration section](github.md)).
 After creation, your book will show in GitBook, already linked to the GitHub sources, with a webhook configured to build the book on update.
 
 ## Importing from documents
