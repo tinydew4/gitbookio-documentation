@@ -22,7 +22,7 @@
 ### Editing
 
 * [Overview](editor/README.md)
-* [Collaboration](editor/collaboration.md)
+* [Workflows](editor/workflows.md)
 * [Solving Conflicts](editor/solving-conflicts.md)
 
 ### Account
