@@ -71,6 +71,12 @@ A --- B --- C --- D --- F ------- I [master]
 
 ## Draft workflow
 
+```
+o --- o ------------- o ----- o ------- o [master]
+       \             /         \       /
+        o --- o --- o [draft1]  o --- o [draft2]
+```
+
 The GitBook Editor will trigger a new build, and publish the book each time you make changes to `master`. Changes can be saving a file, or editing the glossary or the summary. But, following the _Draft_ workflow, it is possible to work on a draft of your book then build it once it is finished only. To do so:
 
 1. Create a new branch from the branches menu
@@ -84,4 +90,46 @@ The GitBook Editor will trigger a new build, and publish the book each time you 
 
 ## Collaboration workflow
 
+```
+                   [chapter-1]         [proofread-chapter-1]
+        o --- o --- o   o ----- o ----- o
+       /             \ /                 \
+o --- o ------------- o -------- o ------ o [master]
+       \                        /
+        o ---- o ----- o ----- o
+                               [chapter-2]
+```
+
+To collaborate on a book, it's more convenient if everyone can work independentely, while still being able to share changes when needed. The _Collaboration_ workflow is suited to collaboration, by keeping everyone's work on separate branches, and merging them in `master` as the book progresses.
+
+The only principle is to create a branch every time you start working on a given task. A lot of things can be seen as a task:
+
+- Writing a particular chapter or section
+- Proofreading
+- Reworking a part of the book
+- Incorporating a [plugin](https://plugins.gitbook.com) and its functionality
+- etc.
+
+Once you are done with the task, people can easily see and review the work on your branch, and you can merge your work into `master`. If someone is working on another task in parallel, she will not be disrupted because she would be working on their own branch.
+
 ## Versionning
+
+
+```
+        [v1.0]            o --- o [v2.0]
+       /                 /
+o --- o --- o --- o --- o --- o --- o [master]
+
+```
+
+It is common for documentations to have a different version for every version of what they document. In this case, you can use branches to track versions of your documentation. The  `master` branch is where the work on the latest versions happen. When releasing a new version of the documentation, save the state of `master` in a branch as the previous version. The branch acts as a label to indicate this is the state of the book for version X of your documentation.
+
+This has two benefits:
+
+- You can publish different versions of your documentation (for example using the [versions plugin](https://plugins.gitbook.com/plugin/versions))
+- You can still fix previous version of the documentation (found a typo ? just make a change on the appropriate version branch)
+
+
+## Conclusion
+
+Of course, branches are not reserved for a single use. Feel free use them as you see fit, and to mix workflows, or make up your own workflow! You can even suggest one to add to this documentation by [emailing us](mailto:contact@gitbook.com).
