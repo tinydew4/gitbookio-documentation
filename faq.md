@@ -2,6 +2,20 @@
 
 This page gathers common questions and answers concerning GitBook.com.
 
+##### Does GitBook supports RTL/bi-directional text ?
+
+The [format](https://toolchain.gitbook.com) used by GitBook supports right to left, and bi-directional writing. To enable it, you either need to specify a language (ex: `ar`), or force GitBook to use RTL in your `book.json`:
+
+``` json
+{
+    "language": "ar",
+    "direction": "rtl"
+}
+```
+
+With version 3.0 of GitBook, it's automatically detected according to the content.
+_Note that, while the output book will indeed respect RTL, the Editor doesn't support RTL writing yet_.
+
 ##### My book is not being updated / I can't see any builds
 
 If you linked your book to a GitHub repository but editing content doesn't trigger any build,
