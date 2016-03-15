@@ -23,6 +23,10 @@
 
 * [Overview](editor/README.md)
 * [Workflows](editor/workflows.md)
+  * [Working with branches](editor/workflows.md#working-with-branches)
+  * [Draft workflow](editor/workflows.md#collaboration-workflow)
+  * [Collaboration workflow](editor/workflows.md#draft-workflow)
+  * [Versionning](editor/workflows.md#versionning)
 * [Solving Conflicts](editor/solving-conflicts.md)
 
 ### Account

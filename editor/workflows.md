@@ -4,7 +4,7 @@ You can always use GitBook and the Editor as any other editor. But GitBook uses 
 
 ## Working with branches
 
-### The concept
+### What is a branch
 
 A branch is a chronological history of the state of your book. All your writing in GitBook happens on branches. Even if you have not used branches so far, you have actually been writing on a single branch from the beginning. This branch is called `master` and is the default branch when creating a book. If you have been working on `master` from the beginning, `master` tracks, as a result, the complete history of the versions of your book.
 
@@ -15,7 +15,7 @@ Here, A is the book after creation. D is the last, current version.
 A --> B --> C --> D [master]
 ```
 
-#### Creating branches
+### Creating branches
 
 Branches only become useful when you use more than one. At any time, you can create a new branch from another branch. This can be done from the Editor, in the branch menu (indicating the current branch `master`), by choosing **New Branch**, naming the new branch, and choosing the origin branch.
 
@@ -43,7 +43,7 @@ A --- B --- C --- D --- F [master]
 
 Both branches have diverged. Now we can keep track of two different versions of our book at the same time and do experiment on our book, without messing up the `master` version!
 
-#### Merging branches
+### Merging branches
 
 Someday, we might be happy with how our `experiment` evolved and we will decide to merge it back into `master`.
 
@@ -132,4 +132,4 @@ This has two benefits:
 
 ## Conclusion
 
-Of course, branches are not reserved for a single use. Feel free use them as you see fit, and to mix workflows, or make up your own workflow! You can even suggest one to add to this documentation by [emailing us](mailto:contact@gitbook.com).
+Of course, branches are not reserved for a single use. Feel free use them as you see fit, and to mix workflows, or make up your own workflow! You can even suggest one to add to this documentation by [emailing us](mailto:contact@gitbook.com) or [using GitHub issues](https://github.com/GitbookIO/documentation/issues).
