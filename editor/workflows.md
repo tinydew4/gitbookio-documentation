@@ -41,15 +41,33 @@ A --- B --- C --- D --- F [master]
                     E [experiment]
 ```
 
-Now we can keep track of two different versions of our book at the same time and do experiment on our book, without messing up the `master` version!
+Both branches have diverged. Now we can keep track of two different versions of our book at the same time and do experiment on our book, without messing up the `master` version!
 
 #### Merging branches
 
 Someday, we might be happy with how our `experiment` evolved and we will decide to merge it back into `master`.
 
-{% hint style="tip" %}
-Naming the default branch "master" is a convention. But at the end of the day, it is just a branch like any other and can be deleted altogether.
-{% endhint %}
+```
+A --- B --- C --- D --- F [master]
+                   \
+                    E --- G --- H [experiment]
+```
+
+This can be done from the Editor, in the branch menu, by choosing **Merge Branches**. You need to choose what branch to merge into what. Here, we would merge `experiment` into `master`. At this point, you may need to [resolve some conflicts](solving-conflicts.md). Otherwise, the changes you made on `experiment` are automatically incorporated into `master`:
+
+```
+A --- B --- C --- D --- F ------- I [master]
+                   \             /
+                    E --- G --- H [experiment]
+```
+
+You can now keep the `experiment` branch, or simply delete it from the branch menu:
+
+```
+A --- B --- C --- D --- F ------- I [master]
+                   \             /
+                    E --- G --- H
+```
 
 ## Draft workflow
 
