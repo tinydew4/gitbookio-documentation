@@ -17,7 +17,7 @@ A --> B --> C --> D [master]
 
 #### Creating branches
 
-Branches only become useful when you use more than one. At any time, you can create a new branch from your current branch. This can be done from the Editor, in the branch menu (indicating the current branch `master`), by choosing **New Branch**.
+Branches only become useful when you use more than one. At any time, you can create a new branch from another branch. This can be done from the Editor, in the branch menu (indicating the current branch `master`), by choosing **New Branch**, naming the new branch, and choosing the origin branch.
 
 Suppose we created a branch from `master` that we called `experiment`, because we want to try experimental changes on our book. Doing so, we have just created a _copy_ of the `master` branch, so they both represent the same history:
 
@@ -70,6 +70,17 @@ A --- B --- C --- D --- F ------- I [master]
 ```
 
 ## Draft workflow
+
+The GitBook Editor will trigger a new build, and publish the book each time you make changes to `master`. Changes can be saving a file, or editing the glossary or the summary. But, following the _Draft_ workflow, it is possible to work on a draft of your book then build it once it is finished only. To do so:
+
+1. Create a new branch from the branches menu
+   1. Enter a name that describes your modification, for example: "rework-chapter1"
+   2. Select `master` as the origin branch
+2. Make sure you are writing from your draft branch
+3. Edit your draft as usual, until you are satisfied
+4. Merge your draft branch into the `master` branch
+5. This should trigger a build
+6. You're done, you can delete your old draft branch
 
 ## Collaboration workflow
 
