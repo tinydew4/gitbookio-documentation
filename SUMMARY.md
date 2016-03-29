@@ -11,12 +11,13 @@
   * [Permissions](book/github.md#setting-up-permissions)
   * [Hosting on GitHub](book/github.md#hosting-your-book-on-github)
   * [Webhooks](book/github.md#webhooks)
+* [Access & Permissions](book/access.md)
 * [Custom Domains](book/domains.md)
 
 ### Publishing
 
 * [Overview](publish/README.md)
-* [Versioning](publish/versions.md)
+* [Versioning](publish/versioning.md)
 * [Update with Git](publish/git.md)
 
 ### Editing
@@ -31,6 +32,6 @@
 
 ### Account
 
+* [Overview](account/README.md)
 * [Organizations](account/orgs.md)
-* [Duplicate](accounts/duplicate.md)
-* [Premium Plans](accounts/plans.md)
+* [Premium Plans](account/plans.md)
