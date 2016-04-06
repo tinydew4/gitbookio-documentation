@@ -1,0 +1,23 @@
+{% extends template.self %}
+
+{% block header_nav %}
+<a href="https://www.gitbook.com/contact" target="_blank" class="btn btn-link pull-right hidden-xs">
+    Contact Support
+</a>
+<a href="{{ "faq.md"|resolveFile }}" class="btn btn-link pull-right hidden-xs">
+    F.A.Q
+</a>
+{% endblock %}
+
+{% block page %}
+{{ super() }}
+<hr>
+<div class="btn-group btn-group-justified">
+    <a class="btn" href="https://www.gitbook.com/contact" target="_blank">
+        <i class="octicon octicon-question"></i> Contact Support
+    </a>
+    <a class="btn" href="https://slack.gitbook.com" target="_blank">
+        <i class="octicon octicon-comment-discussion"></i> Join Slack Community
+    </a>
+</div>
+{% endblock %}
