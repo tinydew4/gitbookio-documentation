@@ -32,4 +32,4 @@ You can mark a conflict as solved by hitting the dedicated button in the toolbar
 
 ## Feedback
 
-Since the conflict resolution UI is a recent addition to the Editor, we always appreciate feedbacks. Don't hesitate to send your suggestions by email at [contact@gitbook.com](mailto:contact@gitbook.com).
+Since the conflict resolution UI is a recent addition to the Editor, we always appreciate feedbacks. Don't hesitate to send your suggestions using [our contact form](https://www.gitbook.com/contact).
